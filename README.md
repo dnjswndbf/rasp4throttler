@@ -3,4 +3,7 @@
 cpu 온도를 측정해서 특정 온도를 초과하면 cpu 성능에 제한을 걸어서 발열을 제어해줍니다
 
 필요한 패키지 : python3, cpufrequtils
-sudo 권한으로 실행하셔야 정상 동작하니다
+sudo 권한으로 실행하셔야 정상 동작합니다
+
+설치 방법(우분투 기준)
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get install python3 cpufrequtils && git clone https://github.com/dnjswndbf/rasp4throttler.git
