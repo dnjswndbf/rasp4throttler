@@ -7,3 +7,6 @@ sudo 권한으로 실행하셔야 정상 동작합니다
 
 설치 방법(우분투 기준)
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get install python3 cpufrequtils && git clone https://github.com/dnjswndbf/rasp4throttler.git
+
+실행 방법
+sudo python3 ther.py
